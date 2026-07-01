@@ -1,10 +1,16 @@
 fastapi
 uvicorn
-streamlit
-pdfplumber
-easyocr
 pandas
-rapidfuzz
+openpyxl
 python-multipart
+jinja2
 requests
-PyMuPDF (fitz)
+pdfplumber
+pdf2image
+pymupdf
+easyocr
+opencv-python-headless
+numpy
+pillow
+rapidfuzz
+python-dotenv
