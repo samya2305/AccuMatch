@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccuMatch</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AccuMatch</h1>
+
+        <p class="subtitle">
+            AI-Powered Document Verification System
+        </p>
+
+        <form action="/upload"
+              method="POST"
+              enctype="multipart/form-data">
+
+            <div class="card">
+                <label>Offer Letter (PDF)</label>
+                <input type="file"
+                       name="offer"
+                       accept=".pdf"
+                       required>
+            </div>
+
+            <div class="card">
+                <label>Aadhaar Card</label>
+                <input type="file"
+                       name="aadhaar"
+                       accept=".jpg,.jpeg,.png,.pdf"
+                       required>
+            </div>
+
+            <div class="card">
+                <label>College ID</label>
+                <input type="file"
+                       name="college"
+                       accept=".jpg,.jpeg,.png,.pdf"
+                       required>
+            </div>
+
+            <div class="card">
+                <label>Resume (PDF)</label>
+                <input type="file"
+                       name="resume"
+                       accept=".pdf"
+                       required>
+            </div>
+
+            <div class="card">
+                <label>Photo</label>
+                <input type="file"
+                       name="photo"
+                       accept=".jpg,.jpeg,.png,.pdf"
+                       required>
+            </div>
+
+            <button type="submit">
+                Verify Documents
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+streamlit
+pdfplumber
+easyocr
+pandas
+rapidfuzz
+python-multipart
+requests
+PyMuPDF (fitz)
